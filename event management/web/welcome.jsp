@@ -56,8 +56,10 @@
 
                     out.println("Logged in successfully");
 
-                    out.print("Hello "+uname);}
+                    out.print("Hello "+uname);
+                                  //  response.sendRedirect("home.html");
 
+                }
                else
 
                    out.println("Username or Password does not exists");

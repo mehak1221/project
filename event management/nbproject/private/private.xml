@@ -3,12 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/login.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/src/java/register.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/index.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/register.html</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/src/java/LoginServlet.java</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/forget.html</file>
-            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/forget.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/home.html</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/reg-process.jsp</file>
             <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/web/welcome.jsp</file>
+            <file>file:/C:/Users/hp/Documents/NetBeansProjects/event%20management/src/java/SignUpServlet.java</file>
         </group>
     </open-files>
 </project-private>
