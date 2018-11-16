@@ -130,10 +130,13 @@ span.psw {
 
 
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="ForgetPassword" method="Post">
     
     <div class="container">
 
+         <label for="psw"><b>Username</b></label>
+      <input type="text" id="name" onblur="myFunction()" placeholder="Enter Username" name="uname" required>
+             <script> function myFunction()  {     var x = document.getElementById("name");     x.value = x.value.toUpperCase(); } </script>
       <label for="psw"><b>New Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
        <label for="psw"><b>Confirm Password</b></label>
