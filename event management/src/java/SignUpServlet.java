@@ -47,7 +47,7 @@ public class SignUpServlet extends HttpServlet {
                 
                 ps.execute();
             }
-       res.sendRedirect("home.html");
+       res.sendRedirect("home.jsp");
 //        ResultSet rs = ps.executeQuery();
        
 }

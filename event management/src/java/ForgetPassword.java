@@ -1,20 +1,13 @@
 
-import static java.awt.event.PaintEvent.UPDATE;
 import java.io.*;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.*;
 import javax.servlet.http.*;
 import javax.servlet.*;
 import java.sql.ResultSet;
 
-/**
- *
- * @author hp
- */
 public class ForgetPassword extends HttpServlet {
 
     @Override

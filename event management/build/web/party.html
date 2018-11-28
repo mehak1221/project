@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <title>Hello World</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js"></script>   
+</head>
+<body>
+      <div class="header-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-10 col-lg-2 order-lg-1">
+                    <div class="site-branding">
+                        <div class="site-title">
+                            <a href="#"><img src="images/logo.png" alt="logo"></a>
+                        </div><!-- .site-title -->
+                    </div><!-- .site-branding -->
+                </div><!-- .col -->
+
+                <div class="col-2 col-lg-7 order-3 order-lg-2">
+                    <nav class="site-navigation">
+                        <div class="hamburger-menu d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- .hamburger-menu -->
+
+                        </nav></div>
+                    <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                    <div class="buy-tickets">
+                        <a class="btn gradient-bg" href="home.jsp">Back </a>
+                    </div><!-- .buy-tickets -->
+                </div>
+                </div><!-- .col -->
+        </div></div>
+<div class="homepage-next-events">
+    <div class="container">
+            <div class="next-events-section-header">
+                <h2 class="entry-title">Weddings</h2>
+            </div>
+      
+<div class="w3-row-padding">
+  <div class="w3-col s3 w3-container">
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+    <img src="images\happy-birthday-2338813__340.jpg" alt="Nature" height="250" width="300" >
+  </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Snow');">
+      <img src="images\pink-wine-1964457__340.jpg" alt="Snow" height="250" width="300">
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+      <img src="images\party-2519089_960_720.jpg" alt="Mountains" height="250" width="300">
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+      <img src="images\conference-1203381_960_720.jpg" alt="Lights" height="250" width="300">
+    </a>
+  </div>
+</div><br>
+
+<div id="Nature" class="picture w3-display-container" style="display:none">
+    <div><h3><b>Birthday Party</b></h3>
+        <h4>1.Decorations</h4>
+    <h4>2.Catering</h4>
+    <h4>3.Magic Show</h4>
+    <h4>4.Music&Dance</h4>
+    <h4>5.Photography</h4>
+    <h4>6.Cake Arrangement</h4></div>
+
+</div>
+<div id="Snow" class="picture w3-display-container" style="display:none">
+    <div>
+        <h3><b>Cocktail Party</b></h3>
+        <h4>1.Decorations</h4>
+    <h4>2.Catering</h4>
+    <h4>3.Cocktails</h4>
+    <h4>4.Music&Dance</h4></div>
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Snow</div>
+</div>
+
+
+<div id="Mountains" class="picture w3-display-container" style="display:none">
+  <div>
+        <h3><b>Theme Party</b></h3>
+        <h4>1.Decorations(acc. to theme)</h4>
+    <h4>2.Catering</h4>
+    <h4>3.DJ</h4>
+    <h4>4.Dance Performances</h4></div>
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
+</div>
+
+<div id="Lights" class="picture w3-display-container" style="display:none">
+  <div>
+        <h3><b>Corporate Party</b></h3>
+        <h4>1.Decorations</h4>
+    <h4>2.Catering</h4>
+    <h4>3.Magic Show</h4>
+    <h4>4.Music&Dance</h4></div>
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
+</div>
+
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>
+
+        </div>
+    </div>
+</body>
+</html>

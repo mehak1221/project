@@ -36,21 +36,34 @@ public class LoginServlet extends HttpServlet {
                 s1 = rs.getString("uname");
                 s2 = rs.getString("psw");
 
-                if (username.equals(s1) && pass.equals(s2)) {
+                if(username.equals("IAMADMIN") && pass.equals("admin@123"))
+                {
+                    flag=2;
+                }
+               else if (username.equals(s1) && pass.equals(s2)) {
                     //out.print("Welcome"+"\n");
                     flag = 1;
 
-                    
-
                 } 
-            }
+                else
+               {
+                   
+               }
+                
+                            }
             if(flag==1)
             {
-                res.sendRedirect("home.html");
+                res.sendRedirect("home.jsp");
             }
-            else {
-                    res.sendRedirect("index.html");
-                }
+           
+            else if(flag==2)
+            {
+                res.sendRedirect("home1.jsp");
+            }
+            else
+            {
+                res.sendRedirect("index.html");
+            }
         } catch (IOException | ClassNotFoundException | SQLException e) {
             //out.print(e);
         }
